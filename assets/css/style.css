@@ -119,20 +119,8 @@ p {
     background-color: #2589bd;
 }
 
-/* edits the lead generation section */
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* edits the brand awareness section */
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* edits the cost management section */
-.benefit-cost {
+/* adjusts benefits column spacing & text color */
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
