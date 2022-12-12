@@ -1,0 +1,157 @@
+
+ /* Applies 0 margin, padding, & box-sizing to border box for ALL elements */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Makes background color white for entire body of page  */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Edits padding, font, bg color and text color for main logo (top right) and navigation bar itmes */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Display style & font size for main logo */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Stylizes the 'seo' letters in 'Horiseon' to be a different color */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Changes properties for navigation bar*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* display & margin for nav bar list items  */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* stylizes nav bar items */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* adjusts font size for all <p> elements */
+p {
+    font-size: 16px;
+}
+
+/* adjusts the main meeting board image at the page's center */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* adjusts positions of SEO section image & cost management section image */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* positions ORM image */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* refines the 3 main blue boxes with the service descriptions to fit*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* applies style to 3 main content boxes */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* adjusts headings of 3 main content boxes */
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* adjusts height of images in the 3 main content boxes */
+.content img {
+    max-height: 200px;
+}
+
+
+/* stylizes the benefits column to the right of the page */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* edits the lead generation section */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* edits the brand awareness section */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* edits the cost management section */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+
+/* adjusts the headings of the 3 benefits */
+.benefits h3{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* adjusts positioning of the images for each benefit */
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* edits footer */
+footer {
+    padding: 30px;   
+}
